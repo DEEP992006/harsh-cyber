@@ -15,27 +15,27 @@ export interface Product {
 
 export const products: Product[] = [
   {
-    id: "1",
-    name: "Sony WH-1000XM5 Wireless Headphones",
-    description: "Industry-leading noise cancellation with 8 microphones for unprecedented clarity. 30-hour battery life and multipoint connection. Premium sound quality with LDAC support.",
-    price: 2999,
-    originalPrice: 9999,
-    image: "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=600&h=600&fit=crop",
+    id: "3",
+    name: "MacBook Pro 14\" M3 Pro",
+    description: "The most advanced Mac laptops ever. Supercharged by M3 Pro and M3 Max chips. With industry-leading battery life, stunningly brilliant display, and all the ports you need.",
+    price: 59999,
+    originalPrice: 182000,
+    image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&h=600&fit=crop",
     images: [
-      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop"
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=600&h=600&fit=crop"
     ],
-    category: "Audio",
-    rating: 4.8,
-    reviews: 12467,
+    category: "Laptops",
+    rating: 4.9,
+    reviews: 1892,
     inStock: true,
     features: [
-      "Industry-leading noise cancellation",
-      "30-hour battery life",
-      "Multipoint connection",
-      "Superior call quality",
-      "Premium comfort design"
+      "Apple M3 Pro chip",
+      "18-hour battery life",
+      "Liquid Retina XDR display",
+      "18GB unified memory",
+      "512GB SSD storage"
     ]
   },
   {
@@ -63,27 +63,75 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "3",
-    name: "MacBook Pro 14\" M3 Pro",
-    description: "The most advanced Mac laptops ever. Supercharged by M3 Pro and M3 Max chips. With industry-leading battery life, stunningly brilliant display, and all the ports you need.",
-    price: 59999,
-    originalPrice: 182000,
-    image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&h=600&fit=crop",
+    id: "7",
+    name: "PlayStation 5 Console",
+    description: "Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with haptic feedback, and a new generation of incredible PlayStation games.",
+    price: 16999,
+    originalPrice: 54990,
+    image: "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=600&h=600&fit=crop",
     images: [
-      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=600&h=600&fit=crop"
+      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1622297845775-5ff3fef71d13?w=600&h=600&fit=crop"
     ],
-    category: "Laptops",
+    category: "Gaming",
     rating: 4.9,
-    reviews: 1892,
+    reviews: 8721,
     inStock: true,
     features: [
-      "Apple M3 Pro chip",
-      "18-hour battery life",
-      "Liquid Retina XDR display",
-      "18GB unified memory",
-      "512GB SSD storage"
+      "Custom AMD GPU",
+      "825GB SSD",
+      "Ray tracing support",
+      "4K gaming at 120fps",
+      "DualSense controller"
+    ]
+  },
+  {
+    id: "8",
+    name: "Canon EOS R6 Mark II",
+    description: "Full-frame mirrorless camera with 24.2MP sensor. Up to 40fps continuous shooting. In-body image stabilization up to 8 stops. 4K 60p video recording.",
+    price: 74999,
+    originalPrice: 224000,
+    image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&h=600&fit=crop",
+    images: [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=600&h=600&fit=crop"
+    ],
+    category: "Cameras",
+    rating: 4.8,
+    reviews: 567,
+    inStock: true,
+    features: [
+      "24.2MP full-frame sensor",
+      "40fps continuous shooting",
+      "8-stop image stabilization",
+      "4K 60p video",
+      "Dual Pixel CMOS AF II"
+    ]
+  },
+  {
+    id: "1",
+    name: "Sony WH-1000XM5 Wireless Headphones",
+    description: "Industry-leading noise cancellation with 8 microphones for unprecedented clarity. 30-hour battery life and multipoint connection. Premium sound quality with LDAC support.",
+    price: 2999,
+    originalPrice: 9999,
+    image: "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=600&h=600&fit=crop",
+    images: [
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop"
+    ],
+    category: "Audio",
+    rating: 4.8,
+    reviews: 12467,
+    inStock: true,
+    features: [
+      "Industry-leading noise cancellation",
+      "30-hour battery life",
+      "Multipoint connection",
+      "Superior call quality",
+      "Premium comfort design"
     ]
   },
   {
@@ -156,54 +204,6 @@ export const products: Product[] = [
       "100m water resistance",
       "Precision dual-frequency GPS",
       "S9 SiP chip"
-    ]
-  },
-  {
-    id: "7",
-    name: "PlayStation 5 Console",
-    description: "Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with haptic feedback, and a new generation of incredible PlayStation games.",
-    price: 16999,
-    originalPrice: 54990,
-    image: "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=600&h=600&fit=crop",
-    images: [
-      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1622297845775-5ff3fef71d13?w=600&h=600&fit=crop"
-    ],
-    category: "Gaming",
-    rating: 4.9,
-    reviews: 8721,
-    inStock: true,
-    features: [
-      "Custom AMD GPU",
-      "825GB SSD",
-      "Ray tracing support",
-      "4K gaming at 120fps",
-      "DualSense controller"
-    ]
-  },
-  {
-    id: "8",
-    name: "Canon EOS R6 Mark II",
-    description: "Full-frame mirrorless camera with 24.2MP sensor. Up to 40fps continuous shooting. In-body image stabilization up to 8 stops. 4K 60p video recording.",
-    price: 74999,
-    originalPrice: 224000,
-    image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&h=600&fit=crop",
-    images: [
-      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=600&h=600&fit=crop"
-    ],
-    category: "Cameras",
-    rating: 4.8,
-    reviews: 567,
-    inStock: true,
-    features: [
-      "24.2MP full-frame sensor",
-      "40fps continuous shooting",
-      "8-stop image stabilization",
-      "4K 60p video",
-      "Dual Pixel CMOS AF II"
     ]
   }
 ];
