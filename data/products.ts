@@ -112,26 +112,26 @@ export const products: Product[] = [
   },
   {
     id: "1",
-    name: "Sony WH-1000XM5 Wireless Headphones",
-    description: "Industry-leading noise cancellation with 8 microphones for unprecedented clarity. 30-hour battery life and multipoint connection. Premium sound quality with LDAC support.",
+    name: "Apple AirPods Pro (2nd Gen)",
+    description: "Active Noise Cancellation with Adaptive Audio. Personalized Spatial Audio with dynamic head tracking. Up to 6 hours listening time, 30 hours with MagSafe charging case.",
     price: 2999,
     originalPrice: 9999,
-    image: "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=600&h=600&fit=crop",
+    image: "https://images.unsplash.com/photo-1606841837239-c5a1a4a07af7?w=600&h=600&fit=crop",
     images: [
-      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop"
+      "https://images.unsplash.com/photo-1606841837239-c5a1a4a07af7?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1625661266876-4605b97fbb77?w=600&h=600&fit=crop"
     ],
     category: "Audio",
     rating: 4.8,
     reviews: 12467,
     inStock: true,
     features: [
-      "Industry-leading noise cancellation",
-      "30-hour battery life",
-      "Multipoint connection",
-      "Superior call quality",
-      "Premium comfort design"
+      "Active Noise Cancellation",
+      "Adaptive Audio",
+      "Personalized Spatial Audio",
+      "6-hour battery (30 with case)",
+      "MagSafe charging"
     ]
   },
   {
