@@ -120,7 +120,6 @@ export const products: Product[] = [
     images: [
       "https://images.unsplash.com/photo-1606841837239-c5a1a4a07af7?w=600&h=600&fit=crop",
       "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1625661266876-4605b97fbb77?w=600&h=600&fit=crop"
     ],
     category: "Audio",
     rating: 4.8,
